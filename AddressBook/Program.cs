@@ -45,7 +45,7 @@ namespace AddressBook
                         System.Console.WriteLine("(0) First name"); 
                         System.Console.WriteLine("(1) Last name"); 
                         System.Console.WriteLine("(2) Address"); 
-                        System.Console.WriteLine("(3) phone number: ");
+                        System.Console.WriteLine("(3) Phone number: ");
                         System.Console.Write("Input the number: ");string input_value_2 = RemoveSpace(Console.ReadLine());
 
                         myDictionary = changeInDictionary(myDictionary,input_value_2, checkPhone);
